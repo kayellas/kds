@@ -116,12 +116,11 @@
                     <a href="../kds/pages/tables/data.php" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>DataTables</p>
-                    </a>
-                  </li>
-                </ul>
+                </a>
               </li>
+          </li>
 
-              <li class="nav-item">
+          <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-chart-pie"></i>
               <p>
@@ -131,7 +130,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../kds/pages/map/map.php" class="nav-link">
+                <a href="../map/map.php" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>MAP</p>
 

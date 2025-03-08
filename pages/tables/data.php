@@ -26,7 +26,7 @@
                                     <th>Ürün Kodu</th>
                                     <th>Ürün Adı</th>
                                     <th>Ürün Miktarı</th>
-                                    <th>Kategor Adı</th>
+                                    <th>Kategori Adı</th>
                                     <th>Alış Fiyatı</th>
                                     <th>Ürün Alış Tarihi</th>
                                     <th colspan="2">İşlemler</th>
@@ -66,7 +66,7 @@
                                         echo "<td>" . $row["urun_id"] . "</td>";
                                         echo "<td>" . $row["urun_ad"] . "</td>";
                                         echo "<td>" . $row["urun_miktar"] . "</td>";
-                                        echo "<td>" . $row["kategori_id"] . "</td>";
+                                        echo "<td>" . $row["kategori_ad"] . "</td>";
                                         echo "<td>" . $row["urun_fiyat"] . "</td>";
                                         echo "<td>". $row["urun_tarih"] . "</td>";
                                         echo "<td> <a href='edit.php?id={$row["urun_id"]}' style=' color:orange'>Düzenle</a></td>";
